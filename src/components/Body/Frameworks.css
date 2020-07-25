@@ -1,0 +1,17 @@
+.header {
+    margin-top: 40px;
+    color: white;
+    text-emphasis-color: lightBlue;
+    text-shadow: midnightblue;
+    font-size: 1.6rem;
+    font-weight:475;
+}
+
+.frameText {
+    margin-top: 40px;
+    color: white;
+    text-emphasis-color: lightBlue;
+    text-shadow: midnightblue;
+    font-size: 1.3rem;
+    font-weight:350;
+}

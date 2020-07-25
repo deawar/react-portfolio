@@ -1,58 +1,68 @@
-# React Portfolio
-To demonstrate my knowledge of React I have rebuilt my portfolio using this Javascript Framework. 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=plastic)
-        <img src="https://img.shields.io/badge/license-MIT-green?style=plastic" alt="License Badge">  [![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/deawar/react-portfolio.svg?style=plastic)](https://GitHub.com/deawar/react-portfolio/pull/) [![GitHub stars](https://img.shields.io/github/stars/deawar/react-portfolio.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/deawar/react-portfolio/stargazers/)
+## Available Scripts
 
-# Project-Title: 
-React Portfolio
+In the project directory, you can run:
 
-## Author: 
-Dean Warren
+### `yarn start`
 
-## Table of Contents
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-* [Installation](#installation)
-* [License](#license)
-* [Usage](#usage)
-* [Contributors](#contributors)
-* [Test](#test)
-* [Contributing](#contributing)
-* [Questions](#questions)
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Installation
-To install necessary dependencies, run the following command:<br>
-```
-npm install
-```
-## License
-MIT
+### `yarn test`
 
-## Usage
-I am a full stack developer who needs to have a reliable way to demonstrate my knowledge base and get the attention of potential employers/clients. I want to be able to display my work in a professional way and make it easy for employers and/or clients to gauge my knowledge base. 
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Collaborators
-[deawar](https://api.github.com/users/deawar/repos)<br>
+### `yarn build`
 
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Test
-To run test, run the following comand:<br>
-```
-npm run lint
-```
-To run the application locally, run the following command:<br>
-```
-npm run start_local
-```
-## Contributing
-This application will be used for displaying my projects. Any comments or ideas are welcome, but please be respectful and mindful.
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-<br>
-<img src="https://placeholder.com" alt="Demo">
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Questions
+### `yarn eject`
 
-<img src="https://avatars1.githubusercontent.com/u/15312495?s=400&u=ca57805f0913479f15a13ed8e5a1577eb95c0926&v=4" alt="ME" width="150" height="150"><br>
-If you have any questions about the repo contact deawar directly at deawar@gmail.com. Thank you for your interest.<br>
-If you want to see more of my work please click here https://api.github.com/users/deawar/repos.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
