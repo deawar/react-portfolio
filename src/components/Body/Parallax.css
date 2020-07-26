@@ -1,0 +1,12 @@
+.header .topHeader {
+    color: #311b92;
+}
+.responsive {
+    width:auto;
+    height:auto;
+    max-width:100%
+}
+
+.btn-large {
+    margin:50px;
+}

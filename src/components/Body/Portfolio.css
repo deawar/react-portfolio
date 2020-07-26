@@ -1,0 +1,8 @@
+.header {
+    color: white;
+}
+.responsive {
+    width:auto;
+    height:auto;
+    max-width:100%
+}

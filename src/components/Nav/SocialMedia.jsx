@@ -1,8 +1,8 @@
 // import React, { useState, useEffect } from 'react';
 import React  from 'react';
 import './SocialMedia.css';
-
-// import M from 'materialize-css';
+import 'react-materialize';
+import 'materialize-css';
 
 
 function Socialmedia ({ children }) {

@@ -1,7 +1,11 @@
-.nav-item #logo-conatiner {
-    text-decoration-color: blue;
-    text-align: left;
+.nav-item .brand-logo #logo-conatiner {
+   
     text-emphasis-color: lightBlue;
     text-shadow: midnightblue;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    margin-bottom: 5rem;
+}
+
+.nav-right {
+    text-align: left;
 }
