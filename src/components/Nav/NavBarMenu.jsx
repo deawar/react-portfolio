@@ -10,9 +10,9 @@ export default function NavBarMenu() {
     const location = useLocation();
     return (
         <Row className="nav-wrapper">
-            <a className="navbar-brand responsive-img" target="_blank" rel="noopener noreferrer" href="https://github.com/deawar" alt="Github Repo Link"></a>
+            <a href="https://github.com/deawar" className="navbar-brand responsive-img" target="_blank" rel="noopener noreferrer" alt="Github Repo Link"> </a>
             <div class="hide-on-med-and-up">
-                <a href="#about" Data-activate="mobile-demo" class="col s11 button-collapse" alt="Hamburger Menu"/><i class="material-icons">menu</i><a/>
+                <a href="#about" Data-activate="mobile-demo" class="col s11 button-collapse" alt="Hamburger Menu"/><i class="material-icons" aria-hidden="true">menu</i> <a/>
             </div>
         
         <a id="logo-container" href="#footer" className="col s6 m12 l3 center brand-logo">Dean E. Warren</a> 
