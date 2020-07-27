@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import '../node_modules/materialize-css/dist/css/materialize.min.css';
 //import Parallax from "./components/Body/Parallax";
@@ -15,14 +15,13 @@ import Blog from "./components/Pages/Blog";
 function App() {
   return (
     <Router>
-      <div className="App">
-        {/* <NavTabs /> */}
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={AboutPage} />
-        <Route exact path="/blog" component={Blog} />
-        {/* <Route path="*" component={Home} /> */}
-        {/* <Parallax /> */}
-        {/* <Footer />   */}
+      <div className="App">          
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={AboutPage} />
+          <Route exact path="/blog" component={Blog} />
+          <Route path="*" component={Home} />
+        </Switch>
       </div>
     </Router>
   );

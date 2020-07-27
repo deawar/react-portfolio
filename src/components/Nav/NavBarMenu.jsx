@@ -11,9 +11,9 @@ export default function NavBarMenu() {
     return (
         <Row className="nav-wrapper">
             <a href="https://github.com/deawar" className="navbar-brand responsive-img" target="_blank" rel="noopener noreferrer" alt="Github Repo Link"> </a>
-            <div class="hide-on-med-and-up">
+            {/* <div class="hide-on-med-and-up">
                 <a href="#about" Data-activate="mobile-demo" class="col s11 button-collapse" alt="Hamburger Menu"/><i class="material-icons" aria-hidden="true">menu</i> <a/>
-            </div>
+            </div> */}
         
         <a id="logo-container" href="#footer" className="col s6 m12 l3 center brand-logo">Dean E. Warren</a> 
             <ul class="nav-right col s6 m12 l9 hide-on-med-and-down">
