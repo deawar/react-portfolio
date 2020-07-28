@@ -2,7 +2,7 @@ import React from "react";
 import Nav from '../Nav';
 import Footer from '../Footer/Footer';
 import HorCards from '../Body/HorCards';
-import Jumbotron from "../Jumbotron";
+// import Jumbotron from "../Jumbotron";
 
 
 

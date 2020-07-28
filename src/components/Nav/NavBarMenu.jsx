@@ -23,10 +23,10 @@ export default function NavBarMenu() {
             <NavLink to="/about" className={location.pathname === '/about' ? 'nav-link active' : 'nav-link'}>
                 About
             </NavLink>
-            <NavLink to href="#portfolio" className="nav-link">
+            <NavLink to="/portfolio" className={location.pathname === '/portfolio' ? 'nav-link active' : 'nav-link'}>
                 Portfolio
             </NavLink>
-            <NavLink to href="#footer" className="nav-link">
+            <NavLink to="#footer" className="nav-link">
                 Contact
             </NavLink>
             <NavLink to="/blog" className={location.pathname === '/blog' ? 'nav-link active' : 'nav-link'}>
