@@ -13,7 +13,7 @@ export default function HorCards() {
                             <div className="s12 m4 hoverable">
                                 <div className="card hoverable">
                                     <div className="card-image">
-                                        <img src="Assets/Images/circuit-board-design-and-neon-light-circles-blue-header.jpg" alt="Blue Circuitboard"/>
+                                        <img src="./Assets/Images/circuit-board-design-and-neon-light-circles-blue-header.jpg" alt="Blue Circuitboard"/>
                                         <span className="card-title center"> A little Self reflection by Dean Warren: Why Do I Feel So Dumb!?!</span>
                                     </div>
                                         <h2 className="Center brown-text"><i className="medium material-icons">school</i></h2>
@@ -30,7 +30,7 @@ export default function HorCards() {
                                         </div>
                             
                                     <div className="card-action">
-                                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/pulse/am-i-making-progress-dean-warren/?trackingId=9vCz7qlQ0ND9gcLjkMKGFw%3D%3D"><span class="fa fa-linkedin" ></span></a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/pulse/am-i-making-progress-dean-warren/?trackingId=9vCz7qlQ0ND9gcLjkMKGFw%3D%3D"><span ClassName="fa fa-linkedin" ></span></a>
                                     </div>
                                 </div>
                             </div>

@@ -1,5 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import 'react-materialize';
+import { NavItem, Navbar } from "react-materialize";
 
 function NavTabs() {
   // We'll go into the Hooks API later, for now, we are just using some code
@@ -8,45 +10,55 @@ function NavTabs() {
   const location = useLocation();
 
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <Navbar 
+      alignLinks="left"
+      className="nav nav-tabs">
+      <NavItem className="nav-item">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home
         </Link>
-      </li>
-      <li className="nav-item">
+      </NavItem>
+      <NavItem className="nav-item">
         <Link
           to="/about"
           className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
         >
           About
         </Link>
-      </li>
-      <li className="nav-item">
+      </NavItem>
+      <NavItem className="nav-item">
         <Link
           to="/blog"
           className={location.pathname === "/blog" ? "nav-link active" : "nav-link"}
         >
           Blog
         </Link>
-      </li>
-      <li className="nav-item">
+      </NavItem>
+      <NavItem className="nav-item">
         <Link
-          to="/contact"
-          className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+          to="#footer"
+          className={location.pathname === "#footer" ? "nav-link active" : "nav-link"}
         >
           Contact
         </Link>
-      </li>
-      <li className="nav-item">
+      </NavItem>
+      <NavItem className="nav-item">
         <Link
           to="*"
           className={location.pathname === "/home" ? "nav-link active" : "nav-link"}
         >
           Home
         </Link>
-      </li>
-    </ul>
+      </NavItem>
+      <NavItem className="nav-item">
+        <Link
+          to="/home/#portfolio"
+          className={location.pathname === (!"/home/#portfolio") ? "nav-link active" : "nav-link"}
+        >
+          Portfolio
+        </Link>
+      </NavItem>
+    </Navbar>
   );
 }
 

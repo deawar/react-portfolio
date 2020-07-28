@@ -14,16 +14,19 @@ import Blog from "./components/Pages/Blog";
 
 function App() {
   return (
-    <Router>
+    <>
+     <Router>
+  
       <div className="App">          
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={AboutPage} />
           <Route exact path="/blog" component={Blog} />
-          <Route path="*" component={Home} />
+          <Route exact path="*" component={Home} />
         </Switch>
       </div>
     </Router>
+    </>
   );
 }
 

@@ -8,7 +8,7 @@ function Jumbotron({ children }) {
     >
       {/* {children} */}
       <div className="view overlay my-4">
-        <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="img-fluid" alt="Coastal Image"/>
+        <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" className="img-fluid" alt="Coastal scene"/>
         <a href="/">
         <div className="mask rgba-white-slight"></div>
         </a>

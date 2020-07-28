@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-//import { SideNav, Button } from 'react-materialize';
-import './SideNav.css';
+import { SideNavItem, Icon } from 'react-materialize';
+//import './SideNav.css';
 import M from 'materialize-css';
 // const trigger = <Button> Open SideNav</Button>;
 // export  () => (
@@ -27,16 +27,17 @@ class SideNavMenu extends Component {
               name: 'Dean Warren',
             }}
             userView
-          />
-          <SideNavItem href="#about" icon={<Icon>cloud</Icon>}>
-              <a href="#about" class="nav-link">About</a>
-          </SideNavItem>
-          <SideNavItem href="#portfolio" icon={<Icon>collections</Icon>}>
-          <a href="#portfolio" class="nav-link">Portfolio</a>
+          /> */}
+          {/* <Button href="#about" icon={<Icon>cloud</Icon>}>
+              <a href="#about" className="nav-link">About</a>
+          </Button> */}
+          
+          {/* <SideNavItem href="#portfolio" icon={<Icon>collections</Icon>}>
+          <a href="#portfolio" className="nav-link">Portfolio</a>
           </SideNavItem>
           
           <SideNavItem href="#contact" icon={<Icon>contact_mail</Icon>}>
-          <a href="#footer" class="nav-link">Contact</a>
+          <a href="#footer" className="nav-link">Contact</a>
           </SideNavItem> */}
         </SideNavMenu>
       </div>

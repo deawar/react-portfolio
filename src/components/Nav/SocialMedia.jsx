@@ -3,32 +3,25 @@ import React  from 'react';
 import './SocialMedia.css';
 import 'react-materialize';
 import 'materialize-css';
+import { NavItem } from 'react-materialize';
 
 
 function Socialmedia ({ children }) {
     return(
-        <>
-            <li class="nav-item">  
-                <a class="btn btn-block btn-social btn-twitter" target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/deawar" >
-                <span class="fa fa-twitter" ></span>
-                </a>
-            </li>
-            <li class="nav-item">  
-                <a class="btn btn-block btn-social btn-linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/dean-warren-ab01468/" >
-                <span class="fa fa-linkedin" ></span>
-            </a>
-            </li>
-            <li class="nav-item">  
-                <a class="btn btn-block btn-social btn-github" target="_blank" rel="noopener noreferrer" href="https://www.github.com/deawar" >
-                <span class="fa fa-github" ></span>
-                </a>
-            </li>
-            <li class="nav-item">  
-                <a class="btn btn-block btn-social btn-reddit" target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/user/deawar" >
-                <span class="fa fa-reddit" ></span>
-                </a>
-            </li>
-        </>
+        <div>
+            <NavItem className="btn  btn-social btn-twitter" target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/deawar" >
+                <span className="fa fa-twitter" ></span>
+            </NavItem>
+            <NavItem className="btn  btn-social btn-linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/dean-warren-ab01468/" >
+                <span className="fa fa-linkedin" ></span>
+            </NavItem>
+            <NavItem className="btn  btn-social btn-github" target="_blank" rel="noopener noreferrer" href="https://www.github.com/deawar" >
+                <span className="fa fa-github" ></span>
+            </NavItem>
+            <NavItem className="btn  btn-social btn-reddit" target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/user/deawar" >
+                <span className="fa fa-reddit" ></span>
+            </NavItem>
+        </div>
     );
 }
 

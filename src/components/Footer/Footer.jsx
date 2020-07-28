@@ -1,14 +1,15 @@
 import React from 'react';
 import './Footer.css';
 import 'materialize-css';
+import * as SSCC from '../../Assets/Images/SSCC-2-275x198.png';
 
 export default function Footer() {
     return (
         <footer className="page-footer deep-purple darken-4 page-wrapper">
-            <div classNameName="container">
+            <div className="container">
                 <div className="row">
                     <div className="col l6 s12">
-                        <img className="left brandLogo" src="./Assets/Images/SSCC-2-275x198.png" width="165" height="105" alt="Unsplashed background img 1"/><h5 className="white-text">Standing Stone Computer Consulting, LLC</h5>
+                        <img className="left brandLogo" src={SSCC} width="165" height="105" alt="Unsplashed background img 1"/><h5 className="white-text">Standing Stone Computer Consulting, LLC</h5>
                         <p className="Norm grey-text text-lighten-4">A team of highly experienced technical professionals working to make technology work for you. If it causes you frustration, we are here to help. We build websites and mobile apps. We can perform security audits and let you know where your network is most vulnerable. Contact us today and let us know how we can help make technology work for you!</p>
 
 

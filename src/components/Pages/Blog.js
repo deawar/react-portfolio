@@ -8,7 +8,7 @@ function Blog() {
   return (
     <>
     <Nav />
-    <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="responsive-img" alt="Coastal Scene"/>
+    <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" ClassName="responsive-img" alt="Coastal Scene"/>
     {/* <Jumbotron /> */}
       <h1>Dean's Notes and Discoveries Page</h1>
       <HorCards />

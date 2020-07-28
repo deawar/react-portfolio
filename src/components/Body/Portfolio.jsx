@@ -2,6 +2,15 @@ import React from 'react';
 import 'materialize-css';
 import {Row, Col} from 'react-materialize';
 import './Portfolio.css';
+import * as JSPass from '../../Assets/Images/jspasswordgen.webp';
+import * as WDSched from '../../Assets/Images/05-third-party-apis-homework-demo.gif';
+import * as RainChk from '../.././Assets/Images/RainChk.gif';
+import * as MCWeath from '../../Assets/Images/MultiCityWeather.webp';
+import * as RMGen from '../../Assets/Images/ReadMeGen.gif';
+import * as WNTaker from '../../Assets/Images/noteTaker.webp';
+import * as FTrack from '../../Assets/Images/FitnessTracker8mb.gif';
+import * as DBApp from '../../Assets/Images/DaMVCBurgerApp_.gif';
+import * as SAGal from '../../Assets/Images/SilentAuctionGallery-min.gif';
 
 export default function Portfolio() {
     return (
@@ -14,7 +23,7 @@ export default function Portfolio() {
                             <div className="icon-block">
                                 <h2 className="Center brown-text"><i className="material-icons">enhanced_encryption</i></h2>
                                 <h5 className="Center">JavaScript Password Generator</h5>
-                                <a target="_blank" rel="noopener noreferrer" href="https://deawar.github.io/jspassword_generator/"><img src="./Assets/Images/jspasswordgen.webp" alt="Password Generator"  width="380" height="380" className="responsive-img" /></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://deawar.github.io/jspassword_generator/"><img src={JSPass} alt="Password Generator"  width="380" height="380" className="responsive-img" /></a>
                                 <div className="d-block p-1 rounded bg-dark text-white">
                                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/deawar/jspassword_generator" className="text-light">GitHub Repo </a>
                                 </div>
@@ -26,7 +35,7 @@ export default function Portfolio() {
                                 <h2 className="Center brown-text"><i className="material-icons">group</i></h2>
                                 <h5 className="Center">Work Day Scheduler</h5>
                                 <div className="responsive card-image">
-                                <a target="_blank" rel="noopener noreferrer" href="https://deawar.github.io/Work-DayScheduler/"><img src="./Assets/Images/05-third-party-apis-homework-demo.gif" width="380" height="380" alt="WorkDay Scheduler" className="responsive-img" /></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://deawar.github.io/Work-DayScheduler/"><img src={WDSched} width="380" height="380" alt="WorkDay Scheduler" className="responsive-img" /></a>
                                 </div>
                                 <div className="d-block p-1 rounded bg-dark text-white">
                                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/deawar/Work-DayScheduler" className="text-light">GitHub Repo </a>
@@ -39,7 +48,7 @@ export default function Portfolio() {
                                 <h2 className="Center brown-text"><i className="material-icons">wb_sunny</i></h2>
                                 <h5 className="Center">RainChk</h5>
                                 <div className="responsive card-image">
-                                <a target="_blank" rel="noopener noreferrer" href="https://itsjonkelley.github.io/RainChk/"><img src="./Assets/Images/RainChk.gif" width="380" height="380" alt="RainChk Scheduler" className="responsive-img" /></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://itsjonkelley.github.io/RainChk/"><img src={RainChk} width="380" height="380" alt="RainChk Scheduler" className="responsive-img" /></a>
                                 </div>
                                 <div className="d-block p-1 rounded bg-dark text-white">
                                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/itsjonkelley/RainChk" className="text-light">GitHub Repo </a>
@@ -54,7 +63,7 @@ export default function Portfolio() {
                                 <h2 className="Center brown-text"><i className="material-icons">flash_on</i></h2>
                                 <h5 className="Center">MultiCityWeather</h5>
                                 <div className="responsive card-image">
-                                <a target="_blank" rel="noopener noreferrer" href="https://deawar.github.io/MultiCityWeather/"><img src="./Assets/Images/MultiCityWeather.webp" width="380" height="380" alt="MultiCityWeather"  className="responsive-img" /></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://deawar.github.io/MultiCityWeather/"><img src={MCWeath} width="380" height="380" alt="MultiCityWeather"  className="responsive-img" /></a>
                                 </div>
                                 <div className="d-block p-1 rounded bg-dark text-white">
                                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/deawar/MultiCityWeather" className="text-light">GitHub Repo </a>
@@ -67,7 +76,7 @@ export default function Portfolio() {
                                 <h2 className="Center brown-text"><i className="material-icons">code</i></h2>
                                 <h5 className="Center">Node JS CLI ReadMeGen</h5>
                                 <div className="responsive card-image">
-                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/deawar/readMeGen/"><img src="./Assets/Images/ReadMeGen.gif" width="380" height="380" alt="CLI ReadMe Generator"  className="responsive-img" /></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://github.com/deawar/readMeGen/"><img src={RMGen} width="380" height="380" alt="CLI ReadMe Generator"  className="responsive-img" /></a>
                                 </div>
                                 <div className="d-block p-1 rounded bg-dark text-white">
                                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/deawar/readMeGen/" className="text-light">GitHub Repo </a>
@@ -80,7 +89,7 @@ export default function Portfolio() {
                                 <h2 className="Center brown-text"><i className="material-icons">assignment</i></h2>
                                 <h5 className="Center">Web Based NoteTaker</h5>
                                 <div className="responsive card-image">
-                                <a target="_blank" rel="noopener noreferrer" href="https://still-headland-57233.herokuapp.com/"><img src="./Assets/Images/noteTaker.webp" width="380" height="380" alt="Web Based NoteTaker"  className="responsive-img" /></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://still-headland-57233.herokuapp.com/"><img src={WNTaker} width="380" height="380" alt="Web Based NoteTaker"  className="responsive-img" /></a>
                                 </div>
                                 <div className="d-block p-1 rounded bg-dark text-white">
                                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/deawar/readMeGen/" className="text-light">GitHub Repo </a>
@@ -95,7 +104,7 @@ export default function Portfolio() {
                                 <h2 className="Center brown-text"><i className="material-icons">fitness_center</i></h2>
                                 <h5 className="Center">Fitness Tracker</h5>
                                 <div className="responsive card-image">
-                                <a target="_blank" rel="noopener noreferrer" href="https://cryptic-tor-43629.herokuapp.com/"><img src="./Assets/Images/FitnessTracker8mb.gif" width="380" height="380" alt="Fitness Tracker"  className="responsive-img" /></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://cryptic-tor-43629.herokuapp.com/"><img src={FTrack} width="380" height="380" alt="Fitness Tracker"  className="responsive-img" /></a>
                                 </div>
                                 <div className="d-block p-1 rounded bg-dark text-white">
                                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/deawar/WorkOutTracker" className="text-light">GitHub Repo </a>
@@ -108,7 +117,7 @@ export default function Portfolio() {
                                 <h2 className="Center brown-text"><i className="material-icons">food_bank</i></h2>
                                 <h5 className="Center">Da MVC Burger App!</h5>
                                 <div className="responsive card-image">
-                                <a target="_blank" rel="noopener noreferrer" href="https://da-burger-app2020.herokuapp.com/"><img src="./Assets/Images/Da MVC Burger App!_.gif" width="380" height="380" alt="Da MVC Burger App!"  className="responsive-img" /></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://da-burger-app2020.herokuapp.com/"><img src={DBApp} width="380" height="380" alt="Da MVC Burger App!"  className="responsive-img" /></a>
                                 </div>
                                 <div className="d-block p-1 rounded bg-dark text-white">
                                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/deawar/DaBurgerApp" className="text-light">GitHub Repo </a>
@@ -121,7 +130,7 @@ export default function Portfolio() {
                                 <h2 className="Center brown-text"><i className="material-icons">brush</i></h2>
                                 <h5 className="Center">Silent Auction Gallary</h5>
                                 <div className="responsive card-image">
-                                <a target="_blank" rel="noopener noreferrer" href="https://silentauctiongallery.herokuapp.com/"><img src="./Assets/Images/SilentAuctionGallery-min.gif" width="380" height="380" alt="Silent Auction Gallery"  className="responsive-img" /></a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://silentauctiongallery.herokuapp.com/"><img src={SAGal} width="380" height="380" alt="Silent Auction Gallery"  className="responsive-img" /></a>
                                 </div>
                                 <div className="d-block p-1 rounded bg-dark text-white">
                                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/ankmud01/SilentAuctionGallery" className="text-light">GitHub Repo </a>
