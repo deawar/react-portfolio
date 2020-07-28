@@ -8,7 +8,7 @@ import { NavItem } from 'react-materialize';
 
 function Socialmedia ({ children }) {
     return(
-        <div>
+        <div className="deep-purple darken-4">
             <NavItem className="btn  btn-social btn-twitter" target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/deawar" >
                 <span className="fa fa-twitter" ></span>
             </NavItem>

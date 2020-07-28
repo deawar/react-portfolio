@@ -1,6 +1,7 @@
 import React from 'react';
 import 'materialize-css';
 import {Row, Col} from  'react-materialize';
+import * as BlueCircuit from '../../Assets/Images/circuit-board-design-and-neon-light-circles-blue-header.jpg';
 
 export default function HorCards() {
     return (
@@ -13,7 +14,7 @@ export default function HorCards() {
                             <div className="s12 m4 hoverable">
                                 <div className="card hoverable">
                                     <div className="card-image">
-                                        <img src="./Assets/Images/circuit-board-design-and-neon-light-circles-blue-header.jpg" alt="Blue Circuitboard"/>
+                                        <img src={BlueCircuit} alt="Blue Circuitboard"/>
                                         <span className="card-title center"> A little Self reflection by Dean Warren: Why Do I Feel So Dumb!?!</span>
                                     </div>
                                         <h2 className="Center brown-text"><i className="medium material-icons">school</i></h2>
@@ -30,7 +31,7 @@ export default function HorCards() {
                                         </div>
                             
                                     <div className="card-action">
-                                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/pulse/am-i-making-progress-dean-warren/?trackingId=9vCz7qlQ0ND9gcLjkMKGFw%3D%3D"><span ClassName="fa fa-linkedin" ></span></a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/pulse/am-i-making-progress-dean-warren/?trackingId=9vCz7qlQ0ND9gcLjkMKGFw%3D%3D"><span className="fa fa-linkedin" ></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -77,7 +78,7 @@ export default function HorCards() {
 
                                             Tip: You can use the commands <b>docker images</b> or the newer <b>docker image ls</b> to list images. They give you the same output. 
 
-                                            <h5>Run the app</h5>
+                                            <h4>Run the app</h4>
 
                                             Run the app, mapping your machine’s port 4000 to the container’s published port 80 using -p: <br/><br/>
 

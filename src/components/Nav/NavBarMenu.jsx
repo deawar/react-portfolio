@@ -15,7 +15,7 @@ export default function NavBarMenu() {
                 <a href="#about" Data-activate="mobile-demo" className="col s11 button-collapse" alt="Hamburger Menu"/><i className="material-icons" aria-hidden="true">menu</i> <a/>
             </div> */}
 
-        <Navbar className="nav-right col s6 m12 l9 hide-on-med-and-down">
+        <Navbar className="nav-right col s6 m12 l12 hide-on-med-and-down deep-purple darken-4">
             <Socialmedia />
             <NavLink to="/" className={location.pathname === '/' ? 'nav-link active' : 'nav-link'}>
                 Home
