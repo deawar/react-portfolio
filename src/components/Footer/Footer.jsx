@@ -16,9 +16,9 @@ export default function Footer() {
                     </div>
                     <div className="col l3 s12">
                     <ul>
-                        <li><a className="white-text" href="#top">Return to top</a></li>
-                        <li><a className="white-text" href="#about">About Dean</a></li>
-                        <li><a className="white-text" href="#portfolio">Portfolio</a></li>
+                        <li><a className="white-text" href="/#top">Return to top</a></li>
+                        <li><a className="white-text" href="/#about">About Dean</a></li>
+                        <li><a className="white-text" href="/#portfolio">Portfolio</a></li>
                         
                     </ul>
                     </div>

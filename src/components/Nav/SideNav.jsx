@@ -23,7 +23,7 @@ class SideNavMenu extends Component {
       </style>
       <Navbar
         className="deep-purple darken-4 hide-on-med-and-up"
-        id="top"
+        id="top-side-nav"
         role="navigation"
         alignLinks="right"
         brand={<a 
