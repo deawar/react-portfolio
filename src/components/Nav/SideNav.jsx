@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import { SideNavItem, Icon } from 'react-materialize';
-//import './SideNav.css';
+import { SideNavItem, Icon, Navbar } from 'react-materialize';
+import './SideNav.css';
 import M from 'materialize-css';
-// const trigger = <Button> Open SideNav</Button>;
-// export  () => (
-//     <SideNav header="SideNav Header" trigger={trigger}></SideNav>
-// );
+import { Link } from 'react-router-dom';
+import Socialmedia from './SocialMedia';
+
 
 class SideNavMenu extends Component {
   componentDidMount() {
@@ -16,30 +15,52 @@ class SideNavMenu extends Component {
     return (
       <div>
         <style>
-          {`#root > div > div {z-index: 99999 !important;}`}
-        </style>
-        <SideNavMenu id="SideNav-10" options={{draggable: true}}>
-          {/* <SideNavItem
-            user={{
-              background: 'https://placeimg.com/640/480/tech',
-              email: 'deawar@gmail.com',
-              image: 'static/media/react-materialize-logo.824c6ea3.svg',
-              name: 'Dean Warren',
-            }}
-            userView
-          /> */}
-          {/* <Button href="#about" icon={<Icon>cloud</Icon>}>
-              <a href="#about" className="nav-link">About</a>
-          </Button> */}
-          
-          {/* <SideNavItem href="#portfolio" icon={<Icon>collections</Icon>}>
-          <a href="#portfolio" className="nav-link">Portfolio</a>
-          </SideNavItem>
-          
-          <SideNavItem href="#contact" icon={<Icon>contact_mail</Icon>}>
-          <a href="#footer" className="nav-link">Contact</a>
-          </SideNavItem> */}
-        </SideNavMenu>
+        {`
+          #root > div > div {
+            z-index: 99999 !important;
+          }
+        `}
+      </style>
+      <Navbar
+        className="deep-purple darken-4 hide-on-med-and-up"
+        id="top"
+        role="navigation"
+        alignLinks="right"
+        brand={<a 
+            className="brand-logo hide-on-med-and-up" 
+            href="https://github.com/deawar" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            alt="Github Repo Link">Dean E. Warren</a>}
+        menuIcon={<Icon>menu</Icon>}
+        options={{
+            draggable: true,
+            edge: 'left',
+            inDuration: 275,
+            onCloseEnd: null,
+            onCloseStart: null,
+            onOpenEnd: null,
+            onOpenStart: null,
+            outDuration: 210,
+            preventScrolling: true
+        }}
+
+        >
+        <SideNavItem
+          let user={{
+            background: 'https://www.publicdomainpictures.net/pictures/10000/velka/paragliding-11279634769TQP1.jpg',
+            email: 'deawar@gmail.com',
+            name: 'Dean E. Warren',
+           }}
+          userView className="hide-on-med-and-up"
+        />
+        <Link to="/home" className="hide-on-med-and-up">Home</Link>
+        <Link to="/about" className="hide-on-med-and-up">About</Link>
+        <Link to="/portfolio" className="hide-on-med-and-up">Portfolio</Link>
+        <Link to="/contact" className="hide-on-med-and-up">Contact</Link>
+        <Link to="/blog" className="hide-on-med-and-up">Blog</Link>
+        <Socialmedia />
+      </Navbar>
       </div>
     );
 }

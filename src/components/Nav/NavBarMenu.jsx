@@ -1,10 +1,10 @@
 import React from 'react';
 import 'materialize-css';
-import { Row, NavItem, Navbar } from 'react-materialize';
+import { Row, Navbar } from 'react-materialize';
 import './SocialMedia';
 import Socialmedia from './SocialMedia';
 import './NavBarMenu.css';
-import { Link, useLocation, NavLink } from 'react-router-dom';
+import { useLocation, NavLink } from 'react-router-dom';
 
 export default function NavBarMenu() {
   const location = useLocation();
@@ -26,7 +26,7 @@ export default function NavBarMenu() {
             <NavLink to="/portfolio" className={location.pathname === '/portfolio' ? 'nav-link active' : 'nav-link'}>
                 Portfolio
             </NavLink>
-            <NavLink to="#footer" className="nav-link">
+            <NavLink to="/contact" className={location.pathname === '/contact' ? 'nav-link active' : 'nav-link'}>
                 Contact
             </NavLink>
             <NavLink to="/blog" className={location.pathname === '/blog' ? 'nav-link active' : 'nav-link'}>

@@ -1,9 +1,18 @@
-.nav-item {
-    margin-top: 10px
+.nav-wrapper {
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
 }
-
+.nav-item {
+    margin-top: 10px;
+}
+.btn {
+    margin: 5px;
+}
 .fa-twitter {
-color: rgb(0, 47, 255)
+color: rgb(0, 47, 255);
+
 }
 
 .fa-linkedin {

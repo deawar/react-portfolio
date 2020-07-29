@@ -36,8 +36,8 @@ function NavTabs() {
       </NavItem>
       <NavItem className="nav-item">
         <Link
-          to="#footer"
-          className={location.pathname === "#footer" ? "nav-link active" : "nav-link"}
+          to="/contact"
+          className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
         >
           Contact
         </Link>

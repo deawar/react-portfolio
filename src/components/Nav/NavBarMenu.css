@@ -1,3 +1,10 @@
+.nav-wrapper {
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+}
+
 .nav-item .brand-logo #logo-conatiner {
    
     text-emphasis-color: lightBlue;
